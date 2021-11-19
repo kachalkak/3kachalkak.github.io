@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPACING</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <header>
+       <div id="logo" onclick="slowScroll('#top')">
+<span>RESPACING</span>
+
+       </div>
+       <div id="about">
+           <a href="#main" onclick="slowScroll('main') "  title="Возможности"> Начало</a>
+           <a href="#overview" onclick="slowScroll('overiew') "  title="Преимущества"> Помощники</a>
+           <a href="#contacts" onclick="slowScroll('contacts') "  title="Контакты"> Контакты</a>
+           <a href="#a1" onclick="slowScroll('faq') "  title="Ответы на вопросы"> FAQ</a>
+       </div>
+   </header>
+   <div id="top">
+       <h1>Программирование</h1>
+       <h3>у себя дома</h3>
+   </div>
+   <div id="main">
+    <div class="intro">
+        <h2>Результат </h2>
+        <span>за 1 месяц </span>
+    </div>
+    <div class="text">
+        
+        <span>Этому я научился, изучая программирование каждый день по 40 минут!</span>
+    </div>
+    </div>
+    <div id="overview">
+        <h2>Помощники</h2>
+        <h4>Эти люди, со своими обучающими роликами, помогли мне сделать такой сайт!</h4>
+    
+        <div class="img">
+          <img src="data:image/jpeg;base64,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" alt="">
+          <span>Владилен Минин</span>
+        </div>
+        <div class="img">
+          <img src="https://sun9-41.userapi.com/impf/c837327/v837327846/2391e/I5bcl5Muaqs.jpg?size=604x604&quality=96&sign=ae425daaa97105d652aa6a3fedf46a0b&type=album" alt="">
+          <span>Георгий Дударь</span>
+        </div>
+      </div>
+<div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form id="form_input">
+      <label for="name">Имя <span>*</span></label><br>
+      <input type="text" placeholder="Введите имя" name="name" id="name">
+      <label for="email">Ваша почта <span>*</span></label><br>
+			<input type="email" placeholder="Введите email" name="email" id="email"><br>
+			<label for="message">Сообщение <span>*</span></label><br>
+			<textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Отправить</div>
+    </form>
+</div>
+<div id="faq">
+    <div id="a1">
+      <span class="title">Оплата</span><br>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Информация</span><br>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Гарантии</span><br>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Какие гарантии есть</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+  </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script>
+       function  slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);}
+       
+           $(document).on("scroll", function () {
+               if ($(window).scrollTop() === 0)
+               $("header").removeClass("fixed");
+               else
+               $("header").attr("class", "fixed");
+           });
+   </script>
+</body>
+</html>
